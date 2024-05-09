@@ -1,0 +1,30 @@
+.notes{
+    color : #eeeeee;
+    display: flex;
+
+}
+.notes li{
+    margin-bottom: 10px;
+    color: #eeeeee;
+    text-align: left;
+}
+.icoRemove {
+    color: #8bc34a;
+    margin-left: 15px;
+}
+.addIco{
+    color: #8bc34a;
+    size: 40px;
+}
+
+.notesInput{
+    display: flex;
+    justify-content: center;
+    margin-top: 170px;
+    column-gap: 5px;
+
+}
+.notesInput input{
+    height: 20px;
+    width: 320px;
+}

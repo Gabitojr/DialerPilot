@@ -1,0 +1,29 @@
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.CardsTop{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  column-gap: 20px;
+}
+
+.HeadersTop{
+  display: flex;
+  
+}
+
+.LeftColumTop{
+  display: flex;
+  flex-direction: column;  
+  row-gap: 10px;
+}
+
+.BottomCards{
+  margin-top: 10px;
+}
+

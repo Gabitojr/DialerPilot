@@ -1,0 +1,27 @@
+.searchBar {
+    margin-left: 46%;
+    display: flex;
+    align-items: center; /* Centers items vertically within the container */
+    justify-content: flex-start; /* Adjust this based on your design preference */
+    flex-wrap: nowrap; /* Prevents items from wrapping */
+}
+
+.searchBar input {
+    flex-grow: 1; /* Allows the input to grow and fill available space */
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.searchBar h1 {
+    font-size: 20px; /* Adjust size as needed */
+    margin-right: 10px; 
+    white-space: nowrap; 
+    flex-shrink: 0;
+}
+
+.searchBar img {
+    /* No need to define size here since it's controlled by inline styles in the component */
+}
